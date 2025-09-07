@@ -7,4 +7,4 @@ import pickle
 
 with open ('LH_CD_DanielOgata.pkl','wb') 
 
-#2) Por fim, o código está pronto para ser executado.
+# 2) Por fim, o código está pronto para ser executado.
