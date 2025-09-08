@@ -101,7 +101,7 @@
     "genres_counts = genres.str.strip().value_counts()\n",
     "\n",
     "#Append to a list\n",
-    "Genres_List.append(genres_counts)\n",
+    "Genres_List_Frequency.append(genres_counts)\n",
     "print(genres_counts.head(15))"
    ]
   },
@@ -134,8 +134,8 @@
    "metadata": {},
    "outputs": [],
    "source": [
-    "nextFilm = MeanProfitOrder[0][0]\n",
-    "avgProfit = MeanProfitOrder[0][1]\n",
+    "nextFilm = MeanProfitOrder[1][0]\n",
+    "avgProfit = MeanProfitOrder[1][1]\n",
     "print(f\"O gênero mais promissor é: {nextFilm} e com o faturamento médio de R$ {avgProfit/1000000:.1f} Milhões\")\n"
    ]
   }
